@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Start a Web Design Project Contact Vynclare India</title>
+  <title>Start a Web Design Project | Contact Vynclare India</title>
   <meta name="description" content="Tell Vynclare about your project. Custom WordPress websites, Shopify stores, e-commerce, NGO, healthcare, and corporate websites for businesses across India and globally.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://vynclare.in/contact.html">
@@ -39,12 +39,12 @@
         </div>
       </div>
       <div class="contact-item">
-        <div class="contact-item-label">Based In</div>
-        <div class="contact-item-val">India · Serving Globally</div>
+        <div class="contact-item-label">Location</div>
+        <div class="contact-item-val">Mumbai, India</div>
       </div>
       <div class="contact-item">
-        <div class="contact-item-label">Works With</div>
-        <div class="contact-item-val" style="font-size:15px; font-family:'DM Sans',sans-serif; line-height:1.7; color:var(--muted);">India · UAE · USA · UK · Any country</div>
+        <div class="contact-item-label">Serving</div>
+        <div class="contact-item-val">India · UAE · USA · UK · Worldwide</div>
       </div>
       <div style="padding-top:32px; border-top:1px solid var(--border);">
         <div class="cs-section-label" style="margin-bottom:16px;">What to Include</div>
@@ -57,22 +57,39 @@
       </div>
     </div>
     <div class="fade">
-      <form class="contact-form" id="contactForm">
+      <!--
+        FormSubmit.co: no backend needed, completely free.
+        IMPORTANT: The very first submission will send a one-time activation email
+        to vynclaredigitalagency@gmail.com. Click confirm in that email.
+        Every submission after that lands directly in your inbox.
+      -->
+      <form
+        class="contact-form"
+        id="contactForm"
+        action="https://formsubmit.co/vynclaredigitalagency@gmail.com"
+        method="POST"
+      >
+        <input type="hidden" name="_subject" value="New Project Enquiry: Vynclare">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://vynclare.in/contact.html?sent=true">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
         <div class="form-group">
           <label class="form-label">Your Name</label>
-          <input class="form-input" type="text" placeholder="Full name" required>
+          <input class="form-input" type="text" name="name" placeholder="Full name" required>
         </div>
         <div class="form-group">
           <label class="form-label">Email Address</label>
-          <input class="form-input" type="email" placeholder="you@company.com" required>
+          <input class="form-input" type="email" name="email" placeholder="you@company.com" required>
         </div>
         <div class="form-group">
           <label class="form-label">Business / Company</label>
-          <input class="form-input" type="text" placeholder="Business name">
+          <input class="form-input" type="text" name="company" placeholder="Business name">
         </div>
         <div class="form-group">
           <label class="form-label">Project Type</label>
-          <select class="form-select form-input">
+          <select class="form-select form-input" name="project_type">
             <option value="">Select project type</option>
             <option>Business Website (WordPress)</option>
             <option>E-Commerce Store (Shopify / WooCommerce)</option>
@@ -80,15 +97,16 @@
             <option>Brand Identity</option>
             <option>NGO / Healthcare Website</option>
             <option>Website Redesign</option>
-            <option>Maintenance &amp; SEO</option>
+            <option>SEO &amp; Search Visibility</option>
+            <option>Maintenance &amp; Support</option>
             <option>Not sure yet</option>
           </select>
         </div>
         <div class="form-group">
           <label class="form-label">Tell Us About Your Project</label>
-          <textarea class="form-textarea form-input" placeholder="What does your business do? What do you need from the website? Any examples you like?" rows="5"></textarea>
+          <textarea class="form-textarea form-input" name="message" placeholder="What does your business do? What do you need from the website? Any examples you like?" rows="5"></textarea>
         </div>
-        <button type="submit" class="btn-primary form-submit" style="width:100%; justify-content:center; cursor:pointer; font-family:'DM Sans',sans-serif;">Send Message →</button>
+        <button type="submit" class="btn-primary form-submit" style="width:100%; justify-content:center; cursor:pointer; font-family:'DM Sans',sans-serif;">Send Message &#8594;</button>
         <p style="font-size:11px; color:var(--muted2); text-align:center; margin-top:12px; letter-spacing:.06em;">We respond within 24 hours · No commitment required</p>
       </form>
     </div>
